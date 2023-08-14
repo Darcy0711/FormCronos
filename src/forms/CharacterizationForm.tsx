@@ -186,10 +186,10 @@ export const CharacterizationForm = ({ nextStep }: CharacterizationProps) => {
                     className="block px-2 w-full text-sm text-gray-900 bg-white rounded-lg border"
                     {...register('ProcessProblem')}
                   >
-                    {errors['ProcessProblem'] && 
-                      <span className="text-red-500 inline-flex">{errors['ProcessProblem'].message as string}</span>
-                    }
                   </textarea>
+                  {errors['ProcessProblem'] && 
+                    <span className="text-red-500 inline-flex">{errors['ProcessProblem'].message as string}</span>
+                  }
                 </div>
               </div>
 
@@ -224,10 +224,10 @@ export const CharacterizationForm = ({ nextStep }: CharacterizationProps) => {
                       className="block w-full px-2 text-sm text-gray-900 bg-white rounded-lg border sm:ml-20"
                       {...register('WhatProblem')}
                     >
-                      {errors['WhatProblem'] && 
-                        <span className="text-red-500 inline-flex">{errors['WhatProblem'].message as string}</span>
-                      }
                     </textarea>
+                    {errors['WhatProblem'] && 
+                      <span className="text-red-500 inline-flex">{errors['WhatProblem'].message as string}</span>
+                    }
                   </div>
                 </div>
                 <div className="sm:w-1/3">
@@ -259,10 +259,10 @@ export const CharacterizationForm = ({ nextStep }: CharacterizationProps) => {
                     className="block px-2 w-full text-sm text-gray-900 bg-white rounded-lg border "
                     {...register('WhatImpact')}
                   >
-                    {errors['WhatImpact'] && 
-                      <span className="text-red-500 inline.flex">{errors['WhatImpact'].message as string}</span>
-                    }
                   </textarea>
+                  {errors['WhatImpact'] && 
+                    <span className="text-red-500 inline.flex">{errors['WhatImpact'].message as string}</span>
+                  }
                 </div>
                 <div className="w-full sm:w-1/2">
                   <label className="block mb-2 font-serif text-start text-gray-500 mt-2">
@@ -273,10 +273,10 @@ export const CharacterizationForm = ({ nextStep }: CharacterizationProps) => {
                     className="block px-2 w-full text-sm text-gray-900 bg-white rounded-lg border "
                     {...register('OperationProcess')}
                   >
-                    {errors['OperationProcess'] &&
-                      <span className="text-red-500 inline-flex">{errors['OperationProcess'].message as string}</span>
-                    }
                   </textarea>
+                  {errors['OperationProcess'] &&
+                    <span className="text-red-500 inline-flex">{errors['OperationProcess'].message as string}</span>
+                  }
                 </div>
               </div>
             </div>

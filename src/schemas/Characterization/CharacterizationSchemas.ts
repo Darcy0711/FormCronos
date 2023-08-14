@@ -10,30 +10,30 @@ export const CharacterizationFormSchema = z.object({
    
     Address: z
     .string()
-    .min(2, 'Este campo es obligatorio')
+    .min(2, 'Campo obligatorio')
     .max(20, 'Solo puede escribir un limite de 20 caracteres'),
     
     AffectedProcess: z
     .string()
-    .min(2, 'Este campo es obligatorio')
+    .min(2, 'Campo obligatorio')
     .max(10, 'Solo puede escribir un limite de 10 caracteres')
     .regex(/^[A-Za-z]+$/),
 
     OfficialName: z
     .string()
-    .min(2, 'Este campo es obligatorio')
+    .min(2, 'Campo obligatorio')
     .max(20, 'Solo puede escribir un limite de 20 caracteres')
     .regex(/^[A-Za-z]+$/, 'Solo se permiten letras'),
     
     Post: z
     .string()
-    .min(2, 'Este campo es obligatorio')
+    .min(2, 'Campo obligatorio')
     .max(10, 'Solo puede escribir un limite de 50 caracteres')
     .regex(/^[A-Za-z]+$/, 'Solo se permiten letras'),
 
     Email: z
     .string()
-    .min(2, 'Este campo es obligatorio')
+    .min(2, 'Campo obligatorio')
     .max(30, 'Solo puede escribir un limite de 30 caracteres'),
     
     DescriptionProblem: z
@@ -48,7 +48,7 @@ export const CharacterizationFormSchema = z.object({
 
     ReasonProblem: z
     .string()
-    .min(2, 'Este campo es obligatorio'),
+    .min(2, 'Campo obligatorio'),
 
     WhatProblem: z
     .string()
@@ -57,7 +57,7 @@ export const CharacterizationFormSchema = z.object({
 
     ImpactType: z
     .string()
-    .min(1, 'El campo es obligatorio'),
+    .min(1, 'Campo obligatorio'),
 
     WhatImpact: z
     .string()

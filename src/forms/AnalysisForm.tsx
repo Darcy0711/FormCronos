@@ -61,12 +61,12 @@ export const AnalysisForm = ({ nextStep }: AnalysisProps) => {
                   className="block px-2 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300"
                   {...register("IndicatorReal")}
                 >
-                  {errors["IndicatorReal"] && (
-                    <p className="text-red-500 inline-flex">
-                      {errors["IndicatorReal"].message as string}
-                    </p>
-                  )}
                 </textarea>
+                {errors["IndicatorReal"] && (
+                  <p className="text-red-500 inline-flex">
+                    {errors["IndicatorReal"].message as string}
+                  </p>
+                )}
               </div>
             </div>
           </div>
@@ -79,12 +79,12 @@ export const AnalysisForm = ({ nextStep }: AnalysisProps) => {
               className="block px-2 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300"
               {...register("Gap")}
             >
-              {errors["Gap"] && (
-                <p className="text-red-500 inline-flex">
-                  {errors["Gap"].message as string}
-                </p>
-              )}
             </textarea>
+            {errors["Gap"] && (
+              <p className="text-red-500 inline-flex">
+                {errors["Gap"].message as string}
+              </p>
+            )}
           </div>
 
           <h2 className="mt-4 font-bold text-xl text-slate-400">
@@ -101,12 +101,12 @@ export const AnalysisForm = ({ nextStep }: AnalysisProps) => {
                   className="block px-2 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300"
                   {...register("PunctualProblem")}
                 >
-                  {errors["PunctualProblem"] && (
-                    <p className="text-red-500 inline-flex">
-                      {errors["PunctualProblem"].message as string}
-                    </p>
-                  )}
                 </textarea>
+                {errors["PunctualProblem"] && (
+                  <p className="text-red-500 inline-flex">
+                    {errors["PunctualProblem"].message as string}
+                  </p>
+                )}
               </div>
 
               <div className="w-full sm:w-1/2">
@@ -118,12 +118,12 @@ export const AnalysisForm = ({ nextStep }: AnalysisProps) => {
                   className="block px-2 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300"
                   {...register("DescriptionProblem")}
                 >
-                  {errors["DescriptionProblem"] && (
-                    <p className="text-red-500">
-                      {errors["DescriptionProblem"].message as string}
-                    </p>
-                  )}
                 </textarea>
+                {errors["DescriptionProblem"] && (
+                  <p className="text-red-500">
+                    {errors["DescriptionProblem"].message as string}
+                  </p>
+                )}
               </div>
             </div>
             <div className="flex flex-col sm:flex-row justify-center sm:gap-5">

@@ -87,10 +87,10 @@ export const ProcessForm = () => {
                     className="block px-2 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300"
                     {...register('DescriptionSolution')}
                   >
-                    {errors['DescriptionSolution'] &&
-                      <p className="text-red-500 inline-flex">{errors['DescriptionSolution'].message as string}</p>
-                    }
                   </textarea>
+                  {errors['DescriptionSolution'] &&
+                    <p className="text-red-500 inline-flex">{errors['DescriptionSolution'].message as string}</p>
+                  }
                 </div>
 
                 <div className="w-full sm:w-1/2">
@@ -102,10 +102,10 @@ export const ProcessForm = () => {
                     className="block px-2 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300"
                     {...register('Resources')}
                   >
-                    {errors['Resources'] &&
-                      <p className="text-red-500 inline-flex">{errors['Resources'].message as string}</p>
-                    }
                   </textarea>
+                  {errors['Resources'] &&
+                    <p className="text-red-500 inline-flex">{errors['Resources'].message as string}</p>
+                  }
                 </div>
               </div>
             </div>
@@ -123,10 +123,10 @@ export const ProcessForm = () => {
                     className="block px-2 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300"
                     {...register('Collaborators')}
                   >
-                    {errors['Resources'] &&
-                      <p className="text-red-500 inline-flex">{errors['Resources'].message as string}</p>
-                    }
                   </textarea>
+                  {errors['Resources'] &&
+                    <p className="text-red-500 inline-flex">{errors['Resources'].message as string}</p>
+                  }
                 </div>
 
                 <div className="w-full sm:w-1/2">
@@ -138,10 +138,10 @@ export const ProcessForm = () => {
                     className="block px-2 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300"
                     {...register('UpdatingProcesses')}
                   >
-                    {errors['UpdatingProcesses'] &&
-                      <p className="text-red-500 inline-flex">{errors['UpdatingProcesses'].message as string}</p>
-                    }
                   </textarea>
+                  {errors['UpdatingProcesses'] &&
+                    <p className="text-red-500 inline-flex">{errors['UpdatingProcesses'].message as string}</p>
+                  }
                 </div>
               </div>
             </div>
@@ -156,10 +156,10 @@ export const ProcessForm = () => {
                     className="block px-2 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300"
                     {...register('TechnologicalResources')}
                   >
-                    {errors['TechnologicalResources'] &&
-                      <p className="text-red-500 inline-flex">{errors['TechnologicalResources'].message as string}</p>
-                    }
                   </textarea>
+                  {errors['TechnologicalResources'] &&
+                    <p className="text-red-500 inline-flex">{errors['TechnologicalResources'].message as string}</p>
+                  }
                 </div>
 
                 <div className="w-full sm:w-1/2">
@@ -171,10 +171,10 @@ export const ProcessForm = () => {
                     className="block px-2 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300"
                     {...register('TechnologicalTools')}
                   >
-                    {errors['TechnologicalTools'] &&
-                      <p className="text-red-500 inline-flex">{errors['TechnologicalTools'].message as string}</p>
-                    }
                   </textarea>
+                  {errors['TechnologicalTools'] &&
+                    <p className="text-red-500 inline-flex">{errors['TechnologicalTools'].message as string}</p>
+                  }
                 </div>
               </div>
             </div>
